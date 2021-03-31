@@ -1,0 +1,357 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'RocknRoll One', sans-serif;
+
+
+}
+
+
+.top{
+	display: inline-block;
+	position: relative;
+	background-color: #353a37;	
+	height: 4.5rem;
+	width: 84.4rem;
+	padding: 1.2rem;
+	object-fit: cover;
+
+}
+
+.search{
+	display: inline-block;	
+}
+
+input,
+input::-webkit-input-placeholder {
+	color: #8e8d88;
+    font-size: 16px;
+    padding: 1px;	
+    position: relative;
+    width: 15rem;
+	height:2rem;
+	background-color: #353a37;
+	outline: none;
+	border:1px solid;
+	border-color: #353a37;
+	border-radius: 30px;
+	left: 2rem;
+}
+.slogo{
+	color: #8e8d88;
+	cursor: pointer;
+	position: relative;	
+
+}
+
+.sign{
+	display: inline-block;
+
+}
+
+.sign-in{
+	position: relative;
+	text-decoration: none;
+	color: #9e8c79;
+	left: 40rem;
+}
+
+.sign-up{
+	text-decoration: none;
+	position: relative;
+	color: #9e8c79;
+	left: 44rem;
+}
+.navigation{
+	background-color: #384640;
+}
+.nav{
+	display: inline-block;
+	margin-top: 1.5rem;
+	margin-left: 4rem;
+	justify-content: space-around;
+
+}
+nav a{
+	line-height: 1.8rem;
+	text-decoration: none;
+	color: #adaba5;
+	font-size: 1.3rem;
+	display: inline-block;
+}
+.logo{
+	position: relative;
+	color: #b3a870;
+	font-size: 2.5rem;
+	font-weight: 1000;
+	font-family: 'Permanent Marker', cursive;
+	bottom: 0.5rem;
+}
+.restro{
+	position: relative;
+	font-size: 1rem;
+	font-weight: 1000;
+	display: block;
+	letter-spacing: 0.45rem;
+	bottom: 0.01rem;
+	
+}
+.bar{
+	position: relative;	
+	left: 28rem;
+	word-spacing: 6rem;
+	bottom: 1rem;
+}
+body{
+	position: relative;
+	
+}
+
+.container {
+  background-color: #444444;
+  margin: 0 auto;
+  width: 84.5rem;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+.slides {
+   z-index: 1px;
+  opacity: 0.4;
+  background: rgba(0,0,0,1);
+  display: flex;
+  height: 100%;
+}
+.slide {
+  min-width: 100%;
+  position: relative;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+.slide-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#next-btn,
+#prev-btn {
+  cursor: pointer;
+  background: transparent;
+  font-size: 30px;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+#next-btn:focus,
+#prev-btn:focus {
+  outline: none;
+}
+.slide-content {
+  position: absolute;
+  top: 47%;
+  left: 150px;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: #b4fd7d;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+.slide-content .tothe{
+	position: relative;
+	font-size: 30px;
+	background-color: black;
+	width: 50px;
+	left: 6rem;
+}
+
+.slogan{
+	position: absolute;
+	left:42rem;
+	text-align: center;
+	width: 100%;
+	font-size: 35px;	
+	color: #fbcd88;
+	font-weight: 1000;
+	top: -15px;
+}
+.fa-quote-left{
+	font-size:25px; 
+	float: left;
+}
+
+.fa-quote-right{
+	font-size:25px; 
+	float: right;
+}
+
+.footer{
+	display: inline-flex;
+	height: 430px;
+	text-align: center;
+ 	color: #bdbaba;
+ 	top:5rem;
+ 	background:#353a37;
+
+}
+#date, #time{
+	color: #bdbaba;
+	background-color: #615a3b;
+	border-color: #615a3b;
+}
+.booking, .opening-times, .contact{
+	padding: 20px;
+	top: 5rem;
+	margin-left: 6%;
+	width: 26%;
+	position: relative;
+	display: inline-block;
+	height: 17rem;
+	background-color: #615a3b;
+}
+.over{
+	background:#353a37;
+	color: #bdbaba;
+}
+.end{
+	height: 3rem;
+	display: inline-block;
+	margin-top: 1rem;
+	word-spacing: 3rem;
+
+}
+
+
+a{
+	text-decoration: none;
+	color: #a6efcd;
+}
+
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: orange;
+}
+
+.icons{
+	display: inline-block;
+	float: right;
+	padding: 20px;
+}
+
+
+
+@media screen and (max-width: 400px) {
+.navigation{
+    height: 65rem;
+    width: 100rem;
+    padding: 1rem;
+  }
+  .top{
+  	width: 100rem;
+  	font-size: 3rem;
+  	height: 7rem;
+  }
+  .sign-in{
+  	left: 10rem;
+  }
+  .sign-up{
+  	left:20rem;
+  }
+  .bar{
+  	position: absolute;
+  	font-size: 10rem;
+  	left: 45rem;
+  	top: 12rem;	
+  	height: 10rem;
+  }
+  .restro{
+  	top: 5rem;
+  	font-size: 5rem;
+  }
+
+  .bar a{
+  	font-size: 8rem; 
+  	width: 100rem;
+  	height: 5rem;
+  	margin-right: 16rem;
+  }
+  .nav{
+  	position: relative;
+  	font-size: 20px;
+  	right: 15rem;
+  	height: 4rem;
+  }
+  .logo{
+  	top:2rem;
+  	left: 40rem;
+  	font-size: 10rem;
+  }
+  .container{
+  	width: 100rem;
+  	height: 70rem;
+  }
+  .slide-content{
+  	font-size:5rem; 
+  	margin-right: 3rem;
+  }
+  .container .slide-content .slogen{
+  	position: absolute;
+    width: 100%;
+    font-size: 10rem;
+    color: #fbcd88;
+    font-weight: 1000;
+    top: 39rem;
+  }
+  .booking {
+  	font-size: 3rem;
+  	width: 90rem;
+  	height: 40rem;
+  }
+  .opening-times{
+  	font-size: 3rem;
+  	width: 90rem;
+  	height: 40rem;
+  }
+  .contact{
+  	 font-size: 3rem;
+  	width: 90rem;
+  	height: 40rem;
+  }
+  .footer{
+  	flex-wrap: wrap;
+  	width: 100rem;
+  	height: 150rem;
+  }
+  .end{
+  	width: 100rem;
+  	font-size: 3rem;
+  }
+  .over{
+  	width: 100rem;
+  	padding: 1rem;
+  	height: 172rem;
+  }
+  .icons{
+  	font-size: 3rem;
+  	margin-top: 4rem;
+  	margin-right: 33rem;
+  }
+  .slogan {
+  	margin-top: 40rem;
+  	left: 1rem;
+  	font-size:2.7rem; 
+  }
+}
+
+
